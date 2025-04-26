@@ -5,14 +5,14 @@ Ce document présente un plan d'implémentation complet pour développer l'appli
 ## Phase 1: Fondations (4 semaines)
 
 ### Configuration de l'environnement
-- [ ] Créer les dépôts Git (frontend, backend, infrastructure)
-  - [ ] Mettre en place la structure des branches (main, develop, feature/)
+- [x] Créer les dépôts Git (frontend, backend, infrastructure)
+  - [x] Mettre en place la structure des branches (main, develop, feature/)
   - [ ] Configurer les règles de protection des branches
   - [ ] Créer les templates pour les issues et pull requests
-- [ ] Configurer l'environnement de développement Flutter
-  - [ ] Installer Flutter SDK 3.10+ et Dart 3.0+
-  - [ ] Configurer les plugins d'IDE (VS Code, Android Studio)
-  - [ ] Mettre en place les linters et formatters (dart_code_metrics, flutter_lints)
+- [x] Configurer l'environnement de développement Flutter
+  - [x] Installer Flutter SDK 3.10+ et Dart 3.0+
+  - [x] Configurer les plugins d'IDE (VS Code, Android Studio)
+  - [x] Mettre en place les linters et formatters (dart_code_metrics, flutter_lints)
 - [ ] Configurer l'environnement Node.js/TypeScript pour le backend
   - [ ] Installer Node.js 18+ et npm/yarn
   - [ ] Configurer TypeScript avec les bonnes options de compilation
@@ -21,12 +21,12 @@ Ce document présente un plan d'implémentation complet pour développer l'appli
   - [ ] Créer le workflow de build et tests
   - [ ] Configurer les environnements secrets
   - [ ] Mettre en place la publication automatique des artifacts
-- [ ] Configurer les environnements de développement, staging et production
-  - [ ] Définir les variables d'environnement pour chaque contexte
-  - [ ] Créer les fichiers de configuration séparés
-- [ ] Installer et configurer les outils de développement (VSCode, Android Studio, Xcode)
-  - [ ] Configurer les émulateurs et simulateurs
-  - [ ] Installer les extensions recommandées
+- [x] Configurer les environnements de développement, staging et production
+  - [x] Définir les variables d'environnement pour chaque contexte
+  - [x] Créer les fichiers de configuration séparés
+- [x] Installer et configurer les outils de développement (VSCode, Android Studio, Xcode)
+  - [x] Configurer les émulateurs et simulateurs
+  - [x] Installer les extensions recommandées
 
 ### Compte et accès
 - [ ] Créer le compte AWS et configurer les utilisateurs IAM
@@ -100,22 +100,22 @@ Ce document présente un plan d'implémentation complet pour développer l'appli
   - [ ] Mettre en place le système de récupération des secrets dans le code
 
 ### Mobile - Structure
-- [ ] Implémenter l'architecture Clean Architecture + MVVM
-  - [ ] Créer la structure de dossiers pour les couches (data, domain, presentation)
-  - [ ] Définir les règles d'import entre les couches
-  - [ ] Mettre en place les interfaces de communication entre couches
-- [ ] Configurer Flutter et les dépendances principales
-  - [ ] Initialiser le projet Flutter avec les bonnes configurations
-  - [ ] Ajouter les dépendances de base au pubspec.yaml (dio, riverpod, etc.)
-  - [ ] Configurer les assets et ressources
-- [ ] Organiser la structure de dossiers (features, domain, data, ui)
-  - [ ] Créer l'arborescence de dossiers par fonctionnalité
-  - [ ] Mettre en place la structure pour les tests
-  - [ ] Organiser les ressources partagées (thèmes, icons, etc.)
-- [ ] Mettre en place Riverpod pour la gestion d'état
-  - [ ] Configurer le ProviderScope racine
-  - [ ] Créer les providers de base (auth, theme, etc.)
-  - [ ] Mettre en place les observateurs pour le debugging
+- [x] Implémenter l'architecture Clean Architecture + MVVM
+  - [x] Créer la structure de dossiers pour les couches (data, domain, presentation)
+  - [x] Définir les règles d'import entre les couches
+  - [x] Mettre en place les interfaces de communication entre couches
+- [x] Configurer Flutter et les dépendances principales
+  - [x] Initialiser le projet Flutter avec les bonnes configurations
+  - [x] Ajouter les dépendances de base au pubspec.yaml (dio, riverpod, etc.)
+  - [x] Configurer les assets et ressources
+- [x] Organiser la structure de dossiers (features, domain, data, ui)
+  - [x] Créer l'arborescence de dossiers par fonctionnalité
+  - [x] Mettre en place la structure pour les tests
+  - [x] Organiser les ressources partagées (thèmes, icons, etc.)
+- [x] Mettre en place Riverpod pour la gestion d'état
+  - [x] Configurer le ProviderScope racine
+  - [x] Créer les providers de base (auth, theme, etc.)
+  - [x] Mettre en place les observateurs pour le debugging
 - [ ] Implémenter les interfaces de repository
   - [ ] Définir les contrats pour chaque repository
   - [ ] Créer les modèles d'erreur et résultats

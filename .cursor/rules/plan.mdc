@@ -5,4 +5,4 @@ alwaysApply: true
 ---
 Développe l'applicatin en autonomie, sans supprimer @docs ou son contenu.
 
-Suis [implementation_plan.md](mdc:docs/implementation_plan.md) étape par étape, fait des tests régulieres pour vérifier que cela fonctionne et fais des commits réguliers sur le repo github à chaque fois qu'une feature, élément à été ajouté avec succès.
+Suis [implementation_plan.md](mdc:docs/implementation_plan.md) étape par étape et coche au fur et à mesure qu'une tâche à été effectuée, fait des tests réguliers pour vérifier que cela fonctionne et fais des commits réguliers sur le repo github à chaque fois qu'une feature, élément à été ajouté avec succès. 
